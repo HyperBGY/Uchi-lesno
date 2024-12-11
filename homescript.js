@@ -88,6 +88,6 @@ function handleMediaChange(e) {
   }
 }
 
-const mediaQuery = window.matchMedia('(max-width: 1700px)');
+const mediaQuery = window.matchMedia('(max-width: 90%)');
 mediaQuery.addListener(handleMediaChange);
 handleMediaChange(mediaQuery); // Initial check
